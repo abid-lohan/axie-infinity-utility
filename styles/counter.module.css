@@ -1,0 +1,66 @@
+.number{
+    margin: 20px 0;
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.number:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.number:active{
+    background-color: white;
+    transition: background-color 100ms ease;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.button{
+    padding: 15px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.minus{
+    background-color: #dc143c;
+}
+
+.minus:active{
+    background-color: #720a1f;
+}
+
+.plus{
+    background-color: lightgreen;
+}
+
+.plus:active{
+    background-color: #3c643c;
+}
+
+.newturn{
+    background-color: lightgray;
+    width: 100%;
+}
+
+.newturn:active{
+    background-color: #606060;
+}
